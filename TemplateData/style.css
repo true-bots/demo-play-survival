@@ -66,3 +66,18 @@ body { margin: 0; background-color: #181818; overflow: hidden; }
 #loading-cover[style*="display: none"], #unity-loading-bar[style*="display: none"],
 #unity-progress-bar-empty[style*="display: none"], #unity-fullscreen-button[style*="display: none"],
 .spinner[style*="display: none"] { display: none !important; }
+
+/* Fix Mouse click */
+#unity-canvas {
+    position: relative;
+    z-index: 1;
+}
+
+#loading-cover {
+    z-index: 2;
+    pointer-events: none;
+}
+
+#unity-fullscreen-button {
+    z-index: 3;
+}
