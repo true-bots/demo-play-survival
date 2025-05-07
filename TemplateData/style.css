@@ -36,6 +36,18 @@ html, body {
   text-align: center;
 }
 
+#unity-logo {
+  max-width: 200px;
+  width: 100%;
+  margin: 0 auto 20px;
+}
+
+#unity-logo img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 #unity-progress-bar-empty {
   width: 80%;
   height: 24px;
